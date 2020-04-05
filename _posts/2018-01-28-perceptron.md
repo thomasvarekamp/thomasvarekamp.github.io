@@ -2,8 +2,8 @@
 title: "Gevraagde vaardigheden van een werknemer in een data gerelateerde functie"
 date: 2020-04-05
 tags: [data, data science, vaardigheden, indeed, text mining]
+fontsize: 12pt
 header:
-  image: "/images/netwerk NL.png"
 excerpt: "Data Science, Data, text mining"
 mathjax: "true"
 ---
