@@ -1,5 +1,5 @@
 ---
-title: "Data Wrangling Project"
+title: "Gevraagde vaardigheden van een werknemer in een data gerelateerde functie"
 date: 2020-04-05
 tags: [data wrangling, data science, messy data]
 header:
