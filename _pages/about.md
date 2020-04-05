@@ -5,4 +5,4 @@ header:
   image: "/images/zakim.jpg"
 ---
 
-A curious data scientist with interests in programmeren, predictive modeling & process automatisation. 
+A curious data scientist with interests in programming, predictive modeling & process automatisation. 
