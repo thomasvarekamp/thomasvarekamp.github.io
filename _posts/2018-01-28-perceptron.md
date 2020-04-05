@@ -22,6 +22,9 @@ Here's some **bold** text.
 
 What about a [link](https://github.com/dataoptimal)?
 
+<img src="img/netwerk NL.png" class="img-responsive" alt=""> </div>
+
+
 Here's a bulleted list:
 * First item
 + Second item
