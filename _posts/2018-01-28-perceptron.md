@@ -7,26 +7,15 @@ header:
 excerpt: "Data Science, Data, text mining"
 mathjax: "true"
 ---
-# Gevraagde vaardigheden van een werknemer in een data gerelateerde functie
-Data en data analyse worden door steeds meer organisaties gebruikt om hun bedrijfsprocessen te optimaliseren en/of een competitief voordeel te behalen. In Januari heb ik een onderzoek gedaan naar de vaardigheden die tegenwoordig worden gevraagd in vacatures in een data gerelateerde functie. Hiervoor heb ik 1144 data gerelateerde functies gescraped van Indeed en vervolgens een text mining analyse op gedaan.  Hieruit kunnen de volgende 4 categorieën uit gedestilleerd worden:
-1. **Vaardigheden**: Communicatief vaardig, sterk analytisch vermogen, Engelse en Nederlandse taal
-Een persoon die werkt met data moet communicatief vaardig zijn en een sterk analytisch vermogen hebben. Ook is een goede beheersing van de Nederlandse en Engelse taal belangrijk. 
-2. **Tools**: R, Python, Power Bi, Microsoft Office, Google Analytics, Adobe Analytics
-R, Python, Power Bi, Microsoft Office, Google Analytics, Adobe Analytics zijn belangrijke tools.
-3. **Opleiding**: Bachelor, Master
-Er wordt voornamelijk gevraagd om een Bachelor of Master opleidingsniveau.
-4. **Methoden**: Agile, Scrum
-Agile en scrum worden toegepast in deze organisaties. 
-
-Interessant zal zijn om dit over een aantal maanden te herhalen om te kijken wat voor impact het Corona virus heeft gehad op de gevraagde vaardigheden. Wellicht zien we een grotere stijging in het gebruik van open source tools doordat bedrijven hun kosten verlagen. 
-
-## Het onderzoek
-Om inzichtelijk te krijgen waar een persoon die met data met werk tegenwoordig aan moet voldoen, heb ik 1144 vacatures gescraped van Indeed in Nederland (datum: 06-01-2020), waarvan een selectie is gemaakt van 844 vacatures die expliciet functie-eisen benoemden. Belangrijk om te vermelden is dat een deel van deze vacatures in het Engels zijn. Dit zijn bedrijven die in Nederland opereren, maar opzoek zijn naar een persoon die kundig is in de Engelse taal (waarschijnlijk een internationale werkvloer, of andere vestigingen in het buitenland). Na het opschonen van de data begint het maken van een overzicht met de meest voorkomende woorden:
+Data en data analyse worden door steeds meer organisaties gebruikt om hun bedrijfsprocessen te optimaliseren en/of een competitief voordeel te behalen. Om inzichtelijk te krijgen waar een persoon die met data met werk tegenwoordig aan moet voldoen, heb ik 1144 vacatures gescraped van Indeed in Nederland (datum: 06-01-2020), waarvan een selectie is gemaakt van 844 vacatures die expliciet functie-eisen benoemden. Belangrijk om te vermelden is dat een deel van deze vacatures in het Engels zijn. Dit zijn bedrijven die in Nederland opereren, maar opzoek zijn naar een persoon die kundig is in de Engelse taal (waarschijnlijk een internationale werkvloer, of andere vestigingen in het buitenland). Na het opschonen van de data begint het maken van een overzicht met de meest voorkomende woorden:
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/Meeste_woorden.png" alt="linearly separable data">
 *meest voorkomende woorden*
 
-Logischerwijs scoren woorden zoals “Data”, “Experience” en “Ervaring” hoog. Interessant om te zien is dat dingen als “sql” en “python” naar voren komen. Dit zijn programmeertalen die dus vaak gevraagd worden. Wat ook interessant is, is het woord “management”. Kijkende naar de vacatures vermoed ik dat dit vacatures zijn waar wordt vermeld dat men moet rapporteren aan het management. 
+Logischerwijs scoren woorden zoals “Data”, “Experience” en “Ervaring” hoog. Interessant om te zien is dat dingen als “sql” en “python” naar voren komen. Dit zijn programmeertalen die vaak gevraagd worden. Wat ook interessant is, is het woord “management”. Kijkende naar de vacatures vermoed ik dat dit vacatures zijn waar wordt vermeld dat men moet rapporteren aan het management. 
+
+# Iets over bigrams en netwerkgrafieken
+
 Een netwerkgrafiek kan helpen in het onderzoeken van verbanden tussen woorden. Dit is een grafiek van woorden die elkaar opvolgen, om zo te zien welke woorden het vaakst achter elkaar worden genoemd. Er is een splitsing gemaakt tussen vacatures die in het Engels zijn en vacatures die in het Nederlands zijn. 
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/netwerk NL.png" alt="linearly separable data">
@@ -35,10 +24,10 @@ Een netwerkgrafiek kan helpen in het onderzoeken van verbanden tussen woorden. D
 <img src="{{ site.url }}{{ site.baseurl }}/images/Netwerk_ENG.png" alt="linearly separable data">
 *Netwerkgrafiek Engels*
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/netwerk.png.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/netwerk.png" alt="linearly separable data">
 *Netwerkgrafiek Nederlands en Engels*
 
-## Conclusie
+### Conclusie
 Uit deze visualisaties komen 4 duidelijke lijnen naar voren:
 
 1. **Vaardigheden**: Communicatief vaardig, sterk analytisch vermogen, Engelse en Nederlandse taal
@@ -50,7 +39,7 @@ Er wordt voornamelijk gevraagd om een Bachelor of Master opleidingsniveau.
 4. **Methoden**: Agile, Scrum
 Agile en scrum worden toegepast in deze organisaties. 
 
-
+Interessant zal zijn om dit over een aantal maanden te herhalen om te kijken wat voor impact het Corona virus heeft gehad op de gevraagde vaardigheden. Wellicht zien we een grotere stijging in het gebruik van open source tools doordat bedrijven hun kosten verlagen. 
 
 
 
