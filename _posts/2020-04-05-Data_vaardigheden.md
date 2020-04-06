@@ -19,13 +19,13 @@ Logischerwijs scoren woorden zoals “Data”, “Experience” en “Ervaring�
 Een netwerkgrafiek kan helpen in het onderzoeken van verbanden tussen woorden. Dit is een grafiek van woorden die elkaar opvolgen, om zo te zien welke woorden het vaakst achter elkaar worden genoemd. Er is een splitsing gemaakt tussen vacatures die in het Engels zijn en vacatures die in het Nederlands zijn. 
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/netwerk NL.png" alt="linearly separable data">
-*Netwerkgrafiek Nederlands*
+<sub>*Grafiek 2: Netwerkgrafiek Nederlands* </sub>
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/Netwerk_ENG.png" alt="linearly separable data">
-*Netwerkgrafiek Engels*
+<sub> *Grafiek 3: Netwerkgrafiek Engels* </sub>
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/netwerk.png" alt="linearly separable data">
-*Netwerkgrafiek Nederlands en Engels*
+<sub>*Grafiek 4: Netwerkgrafiek Nederlands en Engels* </sub>
 
 ### Conclusie
 Uit deze visualisaties komen 4 duidelijke lijnen naar voren:
