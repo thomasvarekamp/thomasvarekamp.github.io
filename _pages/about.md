@@ -4,4 +4,4 @@ permalink: /about/
 header:
 ---
 
-A curious data scientist with interests in programming, predictive modeling & process automatisation. 
+An enthusiastic data scientist that likes to add business value through insights, predictive modeling & process automatisation. 
