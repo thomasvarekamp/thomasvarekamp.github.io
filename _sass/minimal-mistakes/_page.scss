@@ -23,7 +23,6 @@
 .page {
   @include breakpoint($large) {
     float: right;
-    width: calc(100%);
   }
 
   @include breakpoint($x-large) {
