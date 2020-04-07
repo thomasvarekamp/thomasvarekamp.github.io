@@ -44,18 +44,18 @@ Uit deze visualisaties komen 4 duidelijke lijnen naar voren:
 
 1. **Vaardigheden**: Communicatief vaardig, sterk analytisch vermogen, Engelse en Nederlandse taal
 
-Een persoon die werkt met data moet communicatief vaardig zijn en een sterk analytisch vermogen hebben. Ook is een goede beheersing van de Nederlandse en Engelse taal belangrijk. 
+    Een persoon die werkt met data moet communicatief vaardig zijn en een sterk analytisch vermogen hebben. Ook is een goede beheersing van de Nederlandse en Engelse taal belangrijk. 
 
 2. **Tools**: R, Python, Power Bi, Microsoft Office, Google Analytics, Adobe Analytics
 
-R, Python, Power Bi, Microsoft Office, Google Analytics, Adobe Analytics zijn belangrijke tools.
+    R, Python, Power Bi, Microsoft Office, Google Analytics, Adobe Analytics zijn belangrijke tools.
 
 3. **Opleiding**: Bachelor, Master
 
-Er wordt voornamelijk gevraagd om een Bachelor of Master opleidingsniveau.
+    Er wordt voornamelijk gevraagd om een Bachelor of Master opleidingsniveau.
 
 4. **Methoden**: Agile, Scrum
 
-Agile en scrum worden toegepast in deze organisaties. 
+    Agile en scrum worden toegepast in deze organisaties. 
 
 Interessant zal zijn om dit over een aantal maanden te herhalen om te kijken wat voor impact het Corona virus heeft gehad op de gevraagde vaardigheden. Wellicht zien we een grotere stijging in het gebruik van open source tools omdat bedrijven genoodzaakt zijn hun kosten te verlagen. 
