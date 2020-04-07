@@ -15,7 +15,7 @@ De tekstdata wordt opgeschoond door het corrigeren van spellingsfouten en het ve
 ### Stap 2: meest voorkomende woorden
 Na het voorbwerken van de data kijk ik naar de meest genoemde woorden om een indruk te krijgen van wat er wordt genoemd. Dit resulteert in de volgende grafiek:
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/Meest_woorden.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/Meeste_woorden.png" alt="linearly separable data">
 
 <sub> *Grafiek 1: Meest voorkomende woorden* </sub>
 
