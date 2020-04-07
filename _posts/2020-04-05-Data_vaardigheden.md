@@ -9,7 +9,7 @@ mathjax: "true"
 ---
 Data en data analyse worden door steeds meer organisaties gebruikt om hun bedrijfsprocessen te optimaliseren en/of een competitief voordeel te behalen. Om inzichtelijk te krijgen waar een persoon die met data met werk tegenwoordig aan moet voldoen, heb ik 1144 vacatures gescraped van Indeed in Nederland (datum: 06-01-2020), waarvan een selectie is gemaakt van 844 vacatures die expliciet functie-eisen benoemden. Belangrijk om te vermelden is dat een deel van deze vacatures in het Engels zijn. Dit zijn bedrijven die in Nederland opereren, maar opzoek zijn naar een persoon die kundig is in de Engelse taal (waarschijnlijk een internationale werkvloer, of andere vestigingen in het buitenland). Na het opschonen van de data begint het maken van een overzicht met de meest voorkomende woorden:
 
-### 1: opschonen van de data
+### Stap 1: opschonen van de data
 De tekstdata wordt opgeschoond door het corrigeren van spellingsfouten en het verwijderen van woorden die verder geen toegevoegde waarde hebben in deze analyse, zoals lidwoorden en leestekens. 
 
 ### Stap 2: meest voorkomende woorden
@@ -42,7 +42,7 @@ Tot slot de Engelse en Nederlandse vacatures samen.
 
 <sub>*Grafiek 4: Netwerkgrafiek Nederlands en Engels* </sub>
 
-### Conclusie
+## Conclusie
 Uit deze visualisaties komen 4 duidelijke lijnen naar voren:
 
 1. **Vaardigheden**: Communicatief vaardig, sterk analytisch vermogen, Engelse en Nederlandse taal
