@@ -15,7 +15,7 @@ De tekstdata wordt opgeschoond door het corrigeren van spellingsfouten en het ve
 ### Stap 2: meest voorkomende woorden
 Na het voorbwerken van de data kijk ik naar de meest genoemde woorden om een indruk te krijgen van wat er wordt genoemd. Dit resulteert in de volgende grafiek:
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/Meeste_woorden.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/Meest_woorden.png" alt="linearly separable data">
 
 <sub> *Grafiek 1: Meest voorkomende woorden* </sub>
 
@@ -29,14 +29,14 @@ De volgende stap in de analyse is het maken van bigrams. Dit zijn combinaties va
 
 Wat mij opvalt dat communicatieve en analytische vaardigheden hier sterk naar voren komen (linksboven). Onderaan zie je "engelse taal" en "nederlandse taal". 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/Netwerk_ENG.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/netwerk_ENG.png" alt="linearly separable data">
 <sub> *Grafiek 3: Netwerkgrafiek Engels* </sub>
 
 Ook hier worden communicatieve en analytische vaardigheden veel genoemd. Een verschil dat ik zie ten opzichte van de Nederlandse vacatures is dat hier "team members" en "team players" genoemd worden, terwijl bij de Nederlandse vacatures "Zelfstandig werken" wordt genoemd. Blijkbaar leggen werkgevers die Engelssprekende werknemers zoeken een grotere nadruk op samenwerken dan Nederlandssprekende werknemers.
 
 Tot slot de Engelse en Nederlandse vacatures samen. 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/netwerk.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/netwerk.png" width="400" height="400" alt="linearly separable data">
 <sub> *Grafiek 4: Netwerkgrafiek Nederlands en Engels* </sub>
 
 ## Conclusie
