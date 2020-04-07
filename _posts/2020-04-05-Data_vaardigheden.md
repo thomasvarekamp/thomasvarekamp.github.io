@@ -1,5 +1,5 @@
 ---
-title: "Gevraagde vaardigheden van een werknemer in een data gerelateerde functie"
+title: "Gevraagde vaardigheden in een data rol"
 date: 2020-04-05
 tags: [data, data science, vaardigheden, indeed, text mining]
 fontsize: 10pt
@@ -7,21 +7,21 @@ header:
 excerpt: "Data Science, Data, text mining"
 mathjax: "true"
 ---
-Data en data analyse worden door steeds meer organisaties gebruikt om hun bedrijfsprocessen te optimaliseren en/of een competitief voordeel te behalen. Om inzichtelijk te krijgen waar een persoon die met data met werk tegenwoordig aan moet voldoen, heb ik 1144 vacatures gescraped van Indeed in Nederland (datum: 06-01-2020), waarvan een selectie is gemaakt van 844 vacatures die expliciet functie-eisen benoemden. Belangrijk om te vermelden is dat een deel van deze vacatures in het Engels zijn. Dit zijn bedrijven die in Nederland opereren, maar opzoek zijn naar een persoon die kundig is in de Engelse taal (waarschijnlijk een internationale werkvloer, of andere vestigingen in het buitenland). Na het opschonen van de data begint het maken van een overzicht met de meest voorkomende woorden:
+Data en data analyse worden door steeds meer organisaties gebruikt om hun bedrijfsprocessen te optimaliseren en/of een competitief voordeel te behalen. Om inzichtelijk te krijgen waar een persoon die met data met werk tegenwoordig aan moet voldoen, heb ik 1144 vacatures gescraped van Indeed in Nederland (datum: 06-01-2020), waarvan een selectie is gemaakt van 844 vacatures die expliciet functie-eisen benoemden. Belangrijk om te vermelden is dat een deel van deze vacatures in het Engels zijn. Dit zijn bedrijven die in Nederland opereren, maar opzoek zijn naar een persoon die kundig is in de Engelse taal. Waarschijnlijk een zijn dit partijen met een internationale werkvloer, of bezitten ze vestigingen in het buitenland. 
 
-### Stap 1: opschonen van de data
+### Opschonen van de data
 De tekstdata wordt opgeschoond door het corrigeren van spellingsfouten en het verwijderen van woorden die verder geen toegevoegde waarde hebben in deze analyse, zoals lidwoorden en leestekens. 
 
-### Stap 2: meest voorkomende woorden
+### Eerste indruk
 Na het voorbwerken van de data kijk ik naar de meest genoemde woorden om een indruk te krijgen van wat er wordt genoemd. Dit resulteert in de volgende grafiek:
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/Meeste_woorden.png" alt="">
 
 <sub> *Grafiek 1: Meest voorkomende woorden* </sub>
 
-Logischerwijs scoren woorden zoals “Data”, “Experience” en “Ervaring” hoog. Interessant om te zien is dat dingen als “sql” en “python” naar voren komen. Dit zijn programmeertalen die vaak worden gevraagd. Wat mij ook opvalt is het woord “management”. Kijkende naar de vacatures vermoed ik dat dit vacatures zijn waar wordt vermeld dat men moet rapporteren aan management. 
+Logischerwijs scoren woorden zoals “data”, “experience” en “ervaring” hoog. Interessant om te zien is dat dingen als “sql” en “python” naar voren komen. Dit zijn programmeertalen die vaak worden gevraagd. Wat mij ook opvalt is het woord “management”. Kijkende naar de vacatures vermoed ik dat dit vacatures zijn waar wordt vermeld dat men moet rapporteren aan management. 
 
-### Stap 3: Bigrams
+### Bigrams
 De volgende stap in de analyse is het maken van bigrams. Dit zijn combinaties van twee woorden om te zien welke woorden het vaakst bij elkaar worden genoemd en hoe ze elkaar opvolgen. Bigrams kunnen mooi gevisualiseerd worden in een netwerkgrafiek om inzicht te krijgen in de frequentie van de combinaties van woorden. De richting van de pijl geeft de leesrichting aan en de dikte van de pijl de frequentie. Er is een splitsing gemaakt tussen vacatures die in het Engels zijn en vacatures die in het Nederlands zijn geschreven. 
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/netwerk NL.png" alt="">
@@ -32,9 +32,9 @@ Wat mij opvalt dat communicatieve en analytische vaardigheden hier sterk naar vo
 <img src="{{ site.url }}{{ site.baseurl }}/images/netwerk_ENG.png" alt="">
 <sub> *Grafiek 3: Netwerkgrafiek Engels* </sub>
 
-Ook hier worden communicatieve en analytische vaardigheden veel genoemd. Een verschil dat ik zie ten opzichte van de Nederlandse vacatures is dat hier "team members" en "team players" genoemd worden, terwijl bij de Nederlandse vacatures "Zelfstandig werken" wordt genoemd. Blijkbaar leggen werkgevers die Engelssprekende werknemers zoeken een grotere nadruk op samenwerken dan Nederlandssprekende werknemers.
+Ook hier worden communicatieve en analytische vaardigheden veel genoemd. Een verschil dat ik zie ten opzichte van de Nederlandse vacatures is dat hier "team members" en "team players" genoemd worden, terwijl bij de Nederlandse vacatures "zelfstandig werken" wordt genoemd. Blijkbaar leggen werkgevers die Engelssprekende werknemers zoeken een grotere nadruk op samenwerken dan Nederlandssprekende werknemers.
 
-Tot slot de Engelse en Nederlandse vacatures samen. 
+Tot slot de Engelse en Nederlandse vacatures samen. Hier heb ik de verschillende inzichten ingekleurd om te zien hoe ze relateren aan elkaar.  
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/netwerk.png" width="2400px" height="2000px" alt="">
 <sub> *Grafiek 4: Netwerkgrafiek Nederlands en Engels* </sub>
