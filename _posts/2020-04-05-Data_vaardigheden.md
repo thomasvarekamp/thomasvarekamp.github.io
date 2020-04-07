@@ -15,7 +15,7 @@ De tekstdata wordt opgeschoond door het corrigeren van spellingsfouten en het ve
 ### Stap 2: meest voorkomende woorden
 Na het voorbwerken van de data kijk ik naar de meest genoemde woorden om een indruk te krijgen van wat er wordt genoemd. Dit resulteert in de volgende grafiek:
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/Meeste_woorden.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/Meeste_woorden.png" alt="">
 <sub> *Grafiek 1: Meest voorkomende woorden* </sub>
 
 Logischerwijs scoren woorden zoals “Data”, “Experience” en “Ervaring” hoog. Interessant om te zien is dat dingen als “sql” en “python” naar voren komen. Dit zijn programmeertalen die vaak worden gevraagd. Wat mij ook opvalt is het woord “management”. Kijkende naar de vacatures vermoed ik dat dit vacatures zijn waar wordt vermeld dat men moet rapporteren aan management. 
@@ -23,37 +23,37 @@ Logischerwijs scoren woorden zoals “Data”, “Experience” en “Ervaring�
 ### Stap 3: Bigrams
 De volgende stap in de analyse is het maken van bigrams. Dit zijn combinaties van twee woorden om te zien welke woorden het vaakst bij elkaar worden genoemd en hoe ze elkaar opvolgen. Bigrams kunnen mooi gevisualiseerd worden in een netwerkgrafiek om inzicht te krijgen in de frequentie van de combinaties van woorden. De richting van de pijl geeft de leesrichting aan en de dikte van de pijl de frequentie. Er is een splitsing gemaakt tussen vacatures die in het Engels zijn en vacatures die in het Nederlands zijn geschreven. 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/netwerk NL.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/netwerk NL.png" alt="">
 <sub>*Grafiek 2: Netwerkgrafiek Nederlands* </sub>
 
 Wat mij opvalt dat communicatieve en analytische vaardigheden hier sterk naar voren komen (linksboven). Onderaan zie je "engelse taal" en "nederlandse taal". 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/netwerk_ENG.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/netwerk_ENG.png" alt="">
 <sub> *Grafiek 3: Netwerkgrafiek Engels* </sub>
 
 Ook hier worden communicatieve en analytische vaardigheden veel genoemd. Een verschil dat ik zie ten opzichte van de Nederlandse vacatures is dat hier "team members" en "team players" genoemd worden, terwijl bij de Nederlandse vacatures "Zelfstandig werken" wordt genoemd. Blijkbaar leggen werkgevers die Engelssprekende werknemers zoeken een grotere nadruk op samenwerken dan Nederlandssprekende werknemers.
 
 Tot slot de Engelse en Nederlandse vacatures samen. 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/netwerk.png" width="2400px" height="2000px" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/netwerk.png" width="2400px" height="2000px" alt="">
 <sub> *Grafiek 4: Netwerkgrafiek Nederlands en Engels* </sub>
 
 ## Conclusie
 Uit deze visualisaties komen 4 duidelijke lijnen naar voren:
 
-1.  **Vaardigheden**: Communicatief vaardig, sterk analytisch vermogen, Engelse en Nederlandse taal
+1. **Vaardigheden**: Communicatief vaardig, sterk analytisch vermogen, Engelse en Nederlandse taal
 
 Een persoon die werkt met data moet communicatief vaardig zijn en een sterk analytisch vermogen hebben. Ook is een goede beheersing van de Nederlandse en Engelse taal belangrijk. 
 
-2.  **Tools**: R, Python, Power Bi, Microsoft Office, Google Analytics, Adobe Analytics
+2. **Tools**: R, Python, Power Bi, Microsoft Office, Google Analytics, Adobe Analytics
 
 R, Python, Power Bi, Microsoft Office, Google Analytics, Adobe Analytics zijn belangrijke tools.
 
-3.  **Opleiding**: Bachelor, Master
+3. **Opleiding**: Bachelor, Master
 
 Er wordt voornamelijk gevraagd om een Bachelor of Master opleidingsniveau.
 
-4.  **Methoden**: Agile, Scrum
+4. **Methoden**: Agile, Scrum
 
 Agile en scrum worden toegepast in deze organisaties. 
 
