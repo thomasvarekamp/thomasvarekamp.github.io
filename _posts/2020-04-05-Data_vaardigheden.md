@@ -16,7 +16,6 @@ De tekstdata wordt opgeschoond door het corrigeren van spellingsfouten en het ve
 Na het voorbwerken van de data kijk ik naar de meest genoemde woorden om een indruk te krijgen van wat er wordt genoemd. Dit resulteert in de volgende grafiek:
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/Meeste_woorden.png" alt="linearly separable data">
-
 <sub> *Grafiek 1: Meest voorkomende woorden* </sub>
 
 Logischerwijs scoren woorden zoals “Data”, “Experience” en “Ervaring” hoog. Interessant om te zien is dat dingen als “sql” en “python” naar voren komen. Dit zijn programmeertalen die vaak worden gevraagd. Wat mij ook opvalt is het woord “management”. Kijkende naar de vacatures vermoed ik dat dit vacatures zijn waar wordt vermeld dat men moet rapporteren aan management. 
@@ -36,7 +35,7 @@ Ook hier worden communicatieve en analytische vaardigheden veel genoemd. Een ver
 
 Tot slot de Engelse en Nederlandse vacatures samen. 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/netwerk.png" width="1200px" height="1000px" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/netwerk.png" width="2400px" height="2000px" alt="linearly separable data">
 <sub> *Grafiek 4: Netwerkgrafiek Nederlands en Engels* </sub>
 
 ## Conclusie
