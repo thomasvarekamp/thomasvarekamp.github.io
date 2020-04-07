@@ -46,11 +46,11 @@ Uit deze visualisaties komen 4 duidelijke lijnen naar voren:
 
 1. **Vaardigheden**: Communicatief vaardig, sterk analytisch vermogen, Engelse en Nederlandse taal
 
-  *Een persoon die werkt met data moet communicatief vaardig zijn en een sterk analytisch vermogen hebben. Ook is een goede                beheersing van de Nederlandse en Engelse taal belangrijk. 
+  * Een persoon die werkt met data moet communicatief vaardig zijn en een sterk analytisch vermogen hebben. Ook is een goede                beheersing van de Nederlandse en Engelse taal belangrijk. 
 
 2. **Tools**: R, Python, Power Bi, Microsoft Office, Google Analytics, Adobe Analytics
 
-  *R, Python, Power Bi, Microsoft Office, Google Analytics, Adobe Analytics zijn belangrijke tools.
+  * R, Python, Power Bi, Microsoft Office, Google Analytics, Adobe Analytics zijn belangrijke tools.
 
 3. **Opleiding**: Bachelor, Master
 
