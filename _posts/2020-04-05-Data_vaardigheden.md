@@ -36,7 +36,7 @@ Ook hier worden communicatieve en analytische vaardigheden veel genoemd. Een ver
 
 Tot slot de Engelse en Nederlandse vacatures samen. 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/netwerk.png" width="400" height="400" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/netwerk.png" width="1200px" height="1000px" alt="linearly separable data">
 <sub> *Grafiek 4: Netwerkgrafiek Nederlands en Engels* </sub>
 
 ## Conclusie
