@@ -24,13 +24,11 @@ Logischerwijs scoren woorden zoals “Data”, “Experience” en “Ervaring�
 De volgende stap in de analyse is het maken van bigrams. Dit zijn combinaties van twee woorden om te zien welke woorden het vaakst bij elkaar worden genoemd en hoe ze elkaar opvolgen. Bigrams kunnen mooi gevisualiseerd worden in een netwerkgrafiek om inzicht te krijgen in de frequentie van de combinaties van woorden. De richting van de pijl geeft de leesrichting aan en de dikte van de pijl de frequentie. Er is een splitsing gemaakt tussen vacatures die in het Engels zijn en vacatures die in het Nederlands zijn geschreven. 
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/netwerk NL.png" alt="linearly separable data">
-
 <sub>*Grafiek 2: Netwerkgrafiek Nederlands* </sub>
 
 Wat mij opvalt dat communicatieve en analytische vaardigheden hier sterk naar voren komen (linksboven). Onderaan zie je "engelse taal" en "nederlandse taal". 
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/Netwerk_ENG.png" alt="linearly separable data">
-
 <sub> *Grafiek 3: Netwerkgrafiek Engels* </sub>
 
 Ook hier worden communicatieve en analytische vaardigheden veel genoemd. Een verschil dat ik zie ten opzichte van de Nederlandse vacatures is dat hier "team members" en "team players" genoemd worden, terwijl bij de Nederlandse vacatures "Zelfstandig werken" wordt genoemd. Blijkbaar leggen werkgevers die Engelssprekende werknemers zoeken een grotere nadruk op samenwerken dan Nederlandssprekende werknemers.
@@ -38,8 +36,7 @@ Ook hier worden communicatieve en analytische vaardigheden veel genoemd. Een ver
 Tot slot de Engelse en Nederlandse vacatures samen. 
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/netwerk.png" alt="linearly separable data">
-
-<sub>*Grafiek 4: Netwerkgrafiek Nederlands en Engels* </sub>
+<sub> *Grafiek 4: Netwerkgrafiek Nederlands en Engels* </sub>
 
 ## Conclusie
 Uit deze visualisaties komen 4 duidelijke lijnen naar voren:
