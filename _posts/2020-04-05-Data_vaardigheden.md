@@ -7,7 +7,7 @@ header:
 excerpt: "Data Science, Data, text mining"
 mathjax: "true"
 ---
-Data en data analyse worden door steeds meer organisaties gebruikt om hun bedrijfsprocessen te optimaliseren en/of een competitief voordeel te behalen. Om inzichtelijk te krijgen wat bedrijven zoeken in een werknemer die met data werkt, heb ik 1144 vacatures gescraped van Indeed in Nederland (datum: 06-01-2020), waarvan een selectie is gemaakt van 844 vacatures die expliciet functie-eisen benoemden. Hierin wordt later onderscheid gemaakt tussen Nederlandse vacatures en Engelse vacatures. 
+Data en data analyse worden door steeds meer organisaties gebruikt om hun bedrijfsprocessen te optimaliseren en/of een competitief voordeel te behalen. Om inzichtelijk te krijgen wat bedrijven zoeken in een werknemer die met data werkt, heb ik 1144 vacatures gescraped van Indeed in Nederland (datum: 06-01-2020), waarvan een selectie is gemaakt van 844 vacatures die expliciet functie-eisen benoemden. Hierin wordt later onderscheid gemaakt tussen Nederlandse en Engelse vacatures. 
 
 ### Opschonen van de data
 De tekstdata wordt opgeschoond door het corrigeren van spellingsfouten en het verwijderen van woorden die verder geen toegevoegde waarde hebben in deze analyse, zoals lidwoorden en leestekens. 
