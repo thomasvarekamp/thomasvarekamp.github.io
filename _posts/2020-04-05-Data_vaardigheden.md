@@ -1,6 +1,6 @@
 ---
 title: "Gevraagde vaardigheden in een data rol"
-date: 2020-04-05
+date: 2020-04-10
 tags: [data, data science, vaardigheden, indeed, text mining]
 fontsize: 10pt
 header:
