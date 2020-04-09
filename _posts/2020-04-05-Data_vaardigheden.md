@@ -58,4 +58,4 @@ Uit deze visualisaties komen 4 duidelijke lijnen naar voren:
 
     Agile en scrum worden toegepast in deze organisaties. 
 
-Interessant zal zijn om dit over een aantal maanden te herhalen om te kijken wat voor impact het Corona virus heeft gehad op de gevraagde vaardigheden. Wellicht zien we een grotere stijging in het gebruik van open source tools omdat bedrijven genoodzaakt zijn hun kosten te verlagen. 
+Interessant zal zijn om dit over een aantal maanden te herhalen om te kijken wat voor impact het coronavirus heeft gehad op de gevraagde vaardigheden. Wellicht zien we een grotere stijging in het gebruik van open source tools omdat bedrijven genoodzaakt zijn hun kosten te verlagen. 
