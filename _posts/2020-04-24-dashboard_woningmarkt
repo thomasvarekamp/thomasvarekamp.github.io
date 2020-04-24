@@ -8,7 +8,7 @@ excerpt: "Dashboard"
 mathjax: "true"
 ---
 
-Voor Springco Urban Analytics heb ik een dashboard gebouwd die inzicht geeft in ontwikkelingen in de woningmarkt. Hier worden verschillende datasets joined en geaggregeerd om voor elke gemeente te weten wat er gebeurt. Wordt elke week gerefreshed en geupdate.  
+For Springco Urban Analytics I built a dashboard that provides insight into developments in the housing market. Here different datasets are joined and aggregated to know what is happening for each municipality. Refreshed and updated every week.  
 
 <div id="content">
     <div style="height:580px;width:960px">
