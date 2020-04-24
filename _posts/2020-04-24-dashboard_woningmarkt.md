@@ -1,5 +1,5 @@
 ---
-title: "Dashboard woningmarkt"
+title: "Dashboard Woningmarkt"
 date: 2020-04-24
 tags: [data, data science, Power BI, dashboard]
 fontsize: 10pt
