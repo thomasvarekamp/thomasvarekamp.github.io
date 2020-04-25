@@ -4,7 +4,7 @@ date: 2020-04-24
 tags: [data, data science, Power BI, dashboard]
 fontsize: 10pt
 header:
-excerpt: "Dashboard"
+excerpt: "Power BI, Insights, Data analytics"
 mathjax: "true"
 ---
 
