@@ -36,75 +36,41 @@ valence: A measure from 0.0 to 1.0 describing the musical positiveness conveyed 
 
 tempo: The overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece and derives directly from the average beat duration.
 
-
-
-R code block:
-```r
-artists = c(
-  "Beyoncé",
-  "BLØF",
-  "Bruce Springsteen",
-  "Calvin Harris",
-  "Dimitri Vegas & Like Mike",
-  "Enrique Iglesias",
-  "Gavin James",
-  "George Ezra",
-  "Justin Timberlake",
-  "King Princess",
-  "Kygo",
-  "Little Mix",
-  "Mariah Carey",
-  "Martin Garrix",
-  "Nielson",
-  "Pharrell Williams",
-  "P!nk",
-  "Rosalía",
-  "Tom Walker",
-  "Travis Scott"
-)
-
-# artist_list = data.frame(
-#   artist_name = character(),
-#   acousticness = numeric(),
-#   danceability = numeric(),
-#   energy = numeric(),
-#   instrumentalness = numeric(),
-#   liveness = numeric(),
-#   loudness = numeric(),
-#   speechiness = numeric(),
-#   valence = numeric(),
-#   tempo = numeric()
-# )
-# 
-# 
-# for (artist in artists) {
-#   temp_df <- get_artist_audio_features(artist)
-#   
-#   summarized = temp_df %>%
-#     group_by(artist_name) %>%
-#     summarise(
-#       acousticness = mean(acousticness),
-#       danceability = mean(danceability),
-#       energy = mean(energy),
-#       instrumentalness = mean(instrumentalness),
-#       liveness = mean(liveness),
-#       loudness = mean(loudness),
-#       speechiness = mean(speechiness),
-#       valence = mean(valence),
-#       tempo = mean(tempo)
-#     )
-#   
-#   
-#   artist_list = rbind(artist_list, summarized)
-#   Sys.sleep(0.5)
-# }
-#write.csv(artist_list,"artist_list.csv", row.names = F)
-
-artist_list = read_csv("artist_list.csv")
-```
-
 Hier een deel van de data:
 
-<img src="img/netwerk NL.png" class="img-responsive" alt=""> </div>
+<img src="{{ site.url }}{{ site.baseurl }}/images/Table.png" alt="">
+
+Vervolgens maak ik een aantal grafieken om een beter gevoel te krijgen bij de data:
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/Energy.png" alt="">
+
+Dimitri Vegas en Like Mike maken voornamelijk energieke Bigroom House, dus het lijkt mij logisch dat zij op nummer 1 staan. Wat interessant is dat Enrique Iglesias boven Martin Garrix staat, terwijl Martin Garrix vroeger veel house uitbracht. Waarschijnlijk heeft zijn overgang naar meer pop muziek ervoor gezorgd dat het gemiddelde is gedaald. Dit zou uitgezocht kunnen worden door de data per liedje te bekijken, maar dat is buiten de scope van deze analyse.
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/Speechiness.png" alt="">
+
+Welke grafiek ik ook interessant vind om te maken, is speechiness. De afgelopen 10 jaar heeft er een grote verschuiving in populariteit van elektronische instrumentale liedjes naar pop muziek met zang of rap plaatsgevonden. Beyoncé scoort hier veruit het hoogste. Interessant om te zien dat BLØF, een poprockband, hier het laagst scoort.
+
+# PCA en clustering: welke artiesten lijken (niet) op elkaar?
+
+Een PCA (principale componenten analyse) is een methode om de variatie in een dataset samen te vatten en samenhang tussen de gegevens zichtbaar te maken. In plaats van 9 variabelen te pakken uit de dataset, is het wellicht mogelijk om de data samenvatten in 2-3 variabelen zodat te visualiseren is.
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/PCA.png" alt="">
+
+Hierboven is te zien dat zo’n 60% van de dataset samengevat kan worden met 2 componenten. Ik kan nu zien hoe zwaar elke variabele weegt in het component en zo dus zien hoe deze is samengevat:
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/PCA table.png" alt="">
+
+Ik zie dat bij component 1 danceability, energy, loudness en tempo hoog scoren. Mijn interpretatie is dat deze artiesten die hoog scoren op dit component het goed doen in de club. Bij component 2 scoren liveness en tempo hoog, terwijl danceability, instrumentalness en valence laag scoren. Ik vermoed dat dit voornamelijk om artiesten gaan die verdrietige / boze (lage valence) liedjes maken met zang of rap.
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/Club vs emo.png" alt="">
+
+Het is te zien dat Martin Garrix zowel hoog scoort op de emotionele-as, als de club-as. Dit klopt ook wel met mijn beeld. In the name of love en Higher Ground passen hier bij. Travis Scott scoort ook hoog op allebei de assen. Interessant is dat Dimitri Vegas en Like Mike het hoogst scoren op de club-as, wat in mijn ogen ook correct is. Justin Timberlake en Pharell Williams scoren laag op de emotionele / boze-as. Zij maken dan ook veel vrolijke muziek.
+
+## Conclusie
+De artiesten in de bedrijfsbeschrijving van Sony verschillen redelijk van elkaar. Wel zijn er duidelijke overeenkomsten te vinden tussen artiesten als er gekeken wordt naar de PCA componenten. Zo scoort de muziek van Martin Garrix, Travis Scott en DMVLM over het algemeen goed op de as die ik classificeer als club en is de muziek van Justin Timberlake en Pharell Williams voornamelijk niet emotioneel of boos.
+
+
+
+
 
 
